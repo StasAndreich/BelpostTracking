@@ -1,17 +1,13 @@
 @font-face {
     font-family: FugazOne;
-    src: url('FugazOne-Regular.ttf');
+    src: url('/fonts/FugazOne-Regular.ttf');
 }
 
 #title {
     font-size: 1ch;
     font-family: FugazOne;
     font-size: medium;
-    color: azure;
-}
-
-body {
-    background: linear-gradient(253deg, rgb(0, 159, 223), rgb(0, 90, 168));
+    color: black;
 }
 
 #mainContainer {
