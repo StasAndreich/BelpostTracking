@@ -1,0 +1,33 @@
+@font-face {
+    font-family: FugazOne;
+    src: url('FugazOne-Regular.ttf');
+}
+
+#title {
+    font-size: 1ch;
+    font-family: FugazOne;
+    font-size: medium;
+    color: azure;
+}
+
+body {
+    background: linear-gradient(253deg, rgb(0, 159, 223), rgb(0, 90, 168));
+}
+
+#mainContainer {
+    text-align: center;
+    width: fit-content;
+}
+
+#trackNumber {
+    font-size: 2.5ch;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#trackButton {
+    margin-top: 1em;
+    font-size: 2ch;
+    font-family: FugazOne;
+}
+
