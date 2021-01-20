@@ -4,26 +4,38 @@
 }
 
 #title {
-    font-size: 1ch;
+    font-size: 12pt;
     font-family: FugazOne;
     font-size: medium;
-    color: black;
+    color: #0d6dfdcb;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 #mainContainer {
-    text-align: center;
-    width: fit-content;
+    width: 175px;
+    height: 70px;
+    margin: 7px;
 }
 
 #trackNumber {
-    font-size: 2.5ch;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 2ch;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #trackButton {
-    margin-top: 1em;
-    font-size: 2ch;
-    font-family: FugazOne;
+    margin-bottom: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#buttonContainer {
+    text-align: center;
+}
+
+.form-label {
+    font-size: small;
+}
