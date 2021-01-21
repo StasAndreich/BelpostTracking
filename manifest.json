@@ -1,6 +1,6 @@
 {
     "name": "BelpostTracking",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Makes it easier to track your parsels via belpost.by.",
     "manifest_version": 2,
     "icons": {
