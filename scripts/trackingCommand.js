@@ -1,3 +1,5 @@
+import validateTrackCode from './trackCodeValidator.js'
+
 // Tracks code parameter on a target service.
 export default function track(trackCode) {
 
@@ -12,15 +14,4 @@ export default function track(trackCode) {
 function openPostSite(trackCode) {
     open("https://belpost.by/Otsleditotpravleniye?number=" 
         + trackCode);
-}
-
-function validateTrackCode(trackCode) {
-    if (trackCode.length == 13
-        && containsNumber(trackCode))
-        return true;
-    else return false;
-}
-
-function containsNumber(trackCode) {
-    return /\d/.test(trackCode);
 }
