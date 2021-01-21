@@ -44,7 +44,7 @@ rigth into the input field and then submit it.
 This operation leads to opening a new tab with the tracking info.
 
 <br />
-<img align="middle" src="readme-resources/popup-example.png" alt="Popup window">
+<img align="middle" src="readme-resources/popup-use.gif" alt="Popup window">
 
 #### Context menu
 Using a *Context Menu feature* you can simply highlight a ***track code***, right-click and proceed to the tracking page.
